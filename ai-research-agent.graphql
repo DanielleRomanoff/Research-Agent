@@ -1,0 +1,19 @@
+ai-research-agent/
+│
+├─ backend/
+│   ├─ main.py           # Full FastAPI backend (clarifying questions + report + HTML/PDF)
+│   ├─ requirements.txt  # Python dependencies
+│   └─ pdf/              # Temporary folder for PDFs
+│
+├─ frontend/
+│   ├─ package.json
+│   ├─ public/
+│   │   └─ index.html
+│   └─ src/
+│       └─ App.jsx       # React frontend (step-by-step flow)
+│
+├─ .devcontainer/
+│   ├─ devcontainer.json
+│   └─ Dockerfile        # Optional for wkhtmltopdf
+│
+└─ README.md             # Full instructions

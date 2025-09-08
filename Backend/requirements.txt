@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic
+jinja2
+pdfkit
+langchain
+requests

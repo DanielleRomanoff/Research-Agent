@@ -1,0 +1,8 @@
+{
+  "name": "AI Research Agent",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": { "docker-in-docker": "latest" },
+  "postCreateCommand": "pip install -r backend/requirements.txt && npm install --prefix frontend",
+  "forwardPorts": [3000,8000],
+  "remoteUser": "vscode"
+}
